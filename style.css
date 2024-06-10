@@ -1,0 +1,30 @@
+
+.container {
+display: flex;
+flex-wrap: wrap;
+height: 900px;
+width: 900px;
+margin: auto;
+border: 1px solid black;
+}
+
+button {
+    border: none;
+    margin-bottom: 2rem;
+    height: 3rem;
+    width: 11rem;
+    margin: 3rem 2rem;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.buttonsWrapper {
+    display: flex;
+    justify-content: center;
+}
